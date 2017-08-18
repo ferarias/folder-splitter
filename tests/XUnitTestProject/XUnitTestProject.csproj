@@ -15,7 +15,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\SplitFolder\SplitFolder.csproj" />
+    <ProjectReference Include="..\..\src\SplitFolder\SplitFolder.csproj" />
   </ItemGroup>
 
 </Project>
