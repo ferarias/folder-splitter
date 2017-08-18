@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitFolder", "src\SplitFolder\SplitFolder.csproj", "{7303588E-3767-4F60-A5DC-2159FDF1C9D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "tests\XUnitTestProject\XUnitTestProject.csproj", "{86AD309E-9795-4CF4-9AF1-79564B79AA76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitFolderUnitTests", "tests\SplitFolderUnitTests\SplitFolderUnitTests.csproj", "{86AD309E-9795-4CF4-9AF1-79564B79AA76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

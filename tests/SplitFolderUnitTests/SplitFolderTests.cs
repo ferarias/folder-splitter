@@ -5,7 +5,7 @@ using System.Linq;
 using SplitFolder;
 using Xunit;
 
-namespace XUnitTestProject
+namespace SplitFolderUnitTests
 {
     public class SplitFolderTests
     {
@@ -15,9 +15,6 @@ namespace XUnitTestProject
         {
             Cleanup(BasePath);
         }
-
-
-
 
         [Theory]
         [InlineData(0,0)]
@@ -57,7 +54,7 @@ namespace XUnitTestProject
 
             // Act
             Console.WriteLine($"Splitting into '{newFolderName}'...");
-            var newFolder = FolderHelpr.SplitFolder(folderName, newFolderName, itemsMoving);
+            var newFolder = FolderSplitter.Split(folderName, newFolderName, itemsMoving);
 
 
             // Assert

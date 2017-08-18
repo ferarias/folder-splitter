@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace SplitFolder
 {
-    public static class FolderHelpr
+    public static class FolderSplitter
     {
         /// <summary>
         /// Split a folder in two, given the new folder name and the items that will move
@@ -17,7 +17,7 @@ namespace SplitFolder
         ///     The full path of the new folder is returned
         ///     If nothing is moved (i.e.: no files are splitted), the original folder full path is returned
         /// </returns>
-        public static string SplitFolder(string originalFolderPath, string newFolderName, IEnumerable<string> items)
+        public static string Split(string originalFolderPath, string newFolderName, IEnumerable<string> items)
         {
             if(!items.Any())
                 return originalFolderPath;
